@@ -15,6 +15,12 @@ let prezzoTicket = 0.21
 let risultato = numeroKm * prezzoTicket;
 console.log(risultato) 
 
+let sconto = risultato * 0.2;
+console.log(sconto)
+
+let sconto2 = risultato * 0.65;
+console.log(sconto2)
+
 if ( etaUtente < 18 ) {
     
     //sconto20%
