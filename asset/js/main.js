@@ -7,16 +7,22 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 let numeroKm = prompt( "Quanti km vuoi percorrere?" );
 console.log( numeroKm);
 
-const etàUtente = prompt( "Inserisci la tua età");
-console.log( etàUtente);
+const etaUtente = prompt( "Inserisci la tua età");
+console.log( etaUtente);
 
 let prezzoTicket = 0.21
 
 let risultato = numeroKm * prezzoTicket;
 console.log(risultato) 
 
-if ( etàUtente < 18 ) {
+if ( etaUtente < 18 ) {
+    
+    //sconto20%
     console.log( "true" )
-} else {
+} else if ( etaUtente >= 65) {
+    //sconto40%
     console.log ("false")
+} else {
+
+    console.log(risultato)
 }
