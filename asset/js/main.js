@@ -15,8 +15,8 @@ let prezzoTicket = 0.21
 let risultato = numeroKm * prezzoTicket;
 console.log(risultato) 
 
-if ("etàUtente < 18") {
-    console.log ("true")
+if ( etàUtente < 18 ) {
+    console.log( "true" )
 } else {
     console.log ("false")
 }
